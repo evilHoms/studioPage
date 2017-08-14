@@ -20,9 +20,9 @@ a:hover {
 }
 
 .wrapper {
-  min-width: 1300px;
-  width: 100%;
-  max-width: 1400px;
+  /* min-width: 1300px;
+  width: 100%; */
+  width: 1400px;
   margin: 0 auto;
 
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -38,9 +38,9 @@ a:hover {
 .welcome__header {
   position: fixed;
 
-  min-width: 1300px;
-  width: 100%;
-  max-width: 1400px;
+  /* min-width: 1300px;
+  width: 100%; */
+  width: 1400px;
   padding-bottom: 40px;
 
   background: rgba(57, 57, 57, 0.3);
@@ -204,8 +204,8 @@ a:hover {
 }
 
 .portfolio > p {
-  padding-top: 11px;
-  padding-bottom: 23px;
+  padding-top: 8px;
+  padding-bottom: 26px;
 
   font-family: 'Droid Serif', serif;
   font-style: italic;
@@ -215,7 +215,7 @@ a:hover {
 }
 
 .portfolio__item h3 {
-  padding-top: 25px;
+  padding-top: 27px;
   margin: 0 18px;
 
   font-family: 'Montserrat', sans-serif ;
@@ -226,11 +226,12 @@ a:hover {
 }
 
 .portfolio__item p {
-  padding: 3px 22px 23px;
+  padding: 1px 22px 23px;
   margin: 0 18px;
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.35rem;
+  font-style: italic;
   line-height: 1.5;
 
   color: #777777;
@@ -315,7 +316,7 @@ a:hover {
 .about__text {
   display: inline-block;
   width: 50%;
-  padding-top: 5px;
+  padding-top: 2px;
 
   vertical-align: top;
 }
@@ -401,15 +402,15 @@ a:hover {
 }
 
 .person__name {
-  padding-top: 13px;
+  padding-top: 11px;
 
   font-family: 'Montserrat', sans-serif ;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .person__profession {
-  padding: 5px 22px 0;
+  padding: 5px 22px 3px;
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.35rem;
@@ -428,7 +429,7 @@ a:hover {
   padding: 0 100px;
 
   font-family: 'Roboto Slab', serif;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
 
   color: #777777;
 }
