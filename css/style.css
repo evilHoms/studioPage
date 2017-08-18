@@ -20,13 +20,18 @@ a:hover {
 }
 
 .wrapper {
-  /* min-width: 1300px;
-  width: 100%; */
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
 
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: relative;
+
+  width: 915px;
+  margin: 0 auto;
 }
 
 .welcome {
@@ -37,10 +42,9 @@ a:hover {
 
 .welcome__header {
   position: fixed;
+  z-index: 1;
 
-  /* min-width: 1300px;
-  width: 100%; */
-  width: 1400px;
+  width: 100%;
   padding-bottom: 40px;
 
   background: rgba(57, 57, 57, 0.3);
@@ -55,13 +59,11 @@ a:hover {
 .welcome__logo {
   float: left;
   padding-top: 44px;
-  padding-left: 235px
 }
 
 .welcome__menu {
   float: right;
   padding-top: 52px;
-  padding-right: 233px;
 
   font-size: 1.349em;
   text-transform: uppercase;
@@ -125,7 +127,7 @@ a:hover {
 }
 
 .services {
-  padding: 0 205px;
+  padding: 0;
 
   text-align: center;
   font-size: 0;
@@ -208,7 +210,7 @@ a:hover {
 }
 
 .portfolio {
-  padding: 0 212px 120px;
+  padding: 0 0 120px;
 
   text-align: center;
   font-size: 0;
@@ -269,7 +271,7 @@ a:hover {
 }
 
 .about {
-  padding: 0 220px 120px;
+  padding: 0 0 120px;
 
   text-align: center;
   font-size: 0;
@@ -387,7 +389,7 @@ a:hover {
 }
 
 .team {
-  padding: 10px 280px;
+  padding: 10px 0;
 
   text-align: center;
   font-size: 0;
@@ -531,7 +533,7 @@ a:hover {
 }
 
 .contact-us {
-  padding: 10px 224px 110px;
+  padding: 10px 0 110px;
 
   text-align: center;
   font-size: 0;
@@ -655,7 +657,7 @@ footer div {
   position: absolute;
 
   top: 40%;
-  left: 230px;
+  left: 0px;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
