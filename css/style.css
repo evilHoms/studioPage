@@ -30,7 +30,7 @@ a:hover {
 .content {
   position: relative;
 
-  width: 915px;
+  width: 980px;
   margin: 0 auto;
 }
 
@@ -50,7 +50,11 @@ a:hover {
   background: rgba(57, 57, 57, 0.3);
 }
 
-.welcome__header::after {
+.welcome__header .content {
+  padding: 0 25px;
+}
+
+.welcome__header .content::after {
   content: "";
   display: block;
   clear: both;
@@ -151,7 +155,7 @@ a:hover {
   font-size: 3.7rem;
 }
 
-.services > p {
+.services .content > p {
   padding-top: 11px;
 
   font-family: 'Droid Serif', serif;
@@ -235,7 +239,7 @@ a:hover {
   font-size: 3.9rem;
 }
 
-.portfolio > p {
+.portfolio .content > p {
   padding-top: 8px;
   padding-bottom: 26px;
 
@@ -293,7 +297,7 @@ a:hover {
   font-size: 3.9rem;
 }
 
-.about > p {
+.about .content > p {
   padding-top: 11px;
   padding-bottom: 75px;
   
@@ -413,6 +417,10 @@ a:hover {
   font-size: 3.7rem;
 }
 
+.team .items-wrapper {
+  padding: 0 70px;
+}
+
 .team__text {
   padding-top: 11px;
 
@@ -510,7 +518,7 @@ a:hover {
 }
 
 .team__text-after {
-  padding: 0 100px;
+  padding: 0 170px;
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.55rem;
@@ -564,6 +572,7 @@ a:hover {
 
 .send-btn {
   padding: 22px 44px;
+  margin-top: -5px;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -585,7 +594,7 @@ a:hover {
 }
 
 .contact-form {
-  width: 100%;
+  width: 96%;
   margin: 0 auto;
   padding-top: 77px;
 
@@ -613,7 +622,7 @@ a:hover {
   display: block;
   width: 100%;
   margin-bottom: 30px;
-  padding: 15px;
+  padding: 16px;
 
   font-family: 'Montserrat';
   font-weight: 700;
@@ -631,9 +640,9 @@ a:hover {
 
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 
-  color: #bbbbbb;
+  color: #555555;
   resize: none;
   border: 1px solid #cccccc;
   border-radius: 3px;
@@ -656,8 +665,8 @@ footer div {
 .copy {
   position: absolute;
 
-  top: 40%;
-  left: 0px;
+  top: 33%;
+  left: 15px;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
