@@ -134,7 +134,7 @@ a:hover {
 .services__item {
   display: inline-block;
   width: 33.33%;
-  padding-top: 78px;
+  padding-top: 71px;
   padding-bottom: 120px;
 
   vertical-align: top;
@@ -157,6 +157,36 @@ a:hover {
   font-size: 1.6rem;
 
   color: #777777;
+}
+
+.services__ecommerce-icon {
+  display: block;
+  width: 80px;
+  height: 79px;
+  margin: 0 auto;
+
+  background: url("../img/services.png");
+  background-position: 0 0;
+}
+
+.services__responcive-icon {
+  display: block;
+  width: 80px;
+  height: 79px;
+  margin: 0 auto;
+
+  background: url("../img/services.png");
+  background-position: 165px 0;
+}
+
+.services__security-icon {
+  display: block;
+  width: 80px;
+  height: 79px;
+  margin: 0 auto;
+
+  background: url("../img/services.png");
+  background-position: 80px 0;
 }
 
 .services__item h3 {
@@ -425,6 +455,58 @@ a:hover {
   padding: 5px;
 }
 
+.social__twitter-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 97px -5px;
+}
+
+.social__twitter-icon:hover {
+  background-position: 45px -4px;
+}
+
+.social__fb-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: -5px -5px;
+}
+
+.social__fb-icon:hover {
+  background-position: -57px -5px;
+}
+
+.social__pient-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 148px -5px;
+}
+
+.social__pient-icon:hover {
+  background-position: 198px -5px;
+}
+
+.social__gplus-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 300px -5px;
+}
+
+.social__gplus-icon:hover {
+  background-position: 250px -5px;
+}
+
 .team__text-after {
   padding: 0 100px;
 
@@ -533,9 +615,10 @@ a:hover {
 
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 
-  color: #bbbbbb;
+  color: #555555;
   border: 1px solid #cccccc;
   border-radius: 3px;
 }
@@ -582,4 +665,56 @@ footer div {
 
 footer .social__item {
   padding: 3px;
+}
+
+.social__twitterbot-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 45px -4px;
+}
+
+.social__twitterbot-icon:hover {
+  background-position: 97px -5px;
+}
+
+.social__fbbot-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: -57px -5px;
+}
+
+.social__fbbot-icon:hover {
+  background-position: -5px -5px;
+}
+
+.social__pientbot-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 198px -5px;
+}
+
+.social__pientbot-icon:hover {
+  background-position: 148px -5px;
+}
+
+.social__gplusbot-icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+  background: url('../img/social.png');
+  background-position: 250px -5px;
+}
+
+.social__gplusbot-icon:hover {
+  background-position: 300px -5px;
 }

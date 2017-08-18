@@ -14,8 +14,9 @@
 <body>
   
   <div class="wrapper">
-    
-    <header class="welcome" id="welcome">
+
+    <a id="welcome" href="#"></a>
+    <header class="welcome">
     
       <header class="welcome__header">
 
@@ -26,31 +27,21 @@
         </div>
 
         <nav class="welcome__menu">
-          <div class="menu-item">
-            <a href="#welcome">
-              home
-            </a>
-          </div>
-          <div class="menu-item">
-            <a href="#services">
-              services
-            </a>
-          </div>
-          <div class="menu-item">
-            <a href="#portfolio">
-              portfolio
-            </a>
-          </div>
-          <div class="menu-item">
-            <a href="#about">
-              about
-            </a>
-          </div>
-          <div class="menu-item">
-            <a href="#contact-us">
-              contact
-            </a>
-          </div>
+          <a class="menu-item" href="#welcome">
+            home
+          </a>
+          <a class="menu-item" href="#services">
+            services
+          </a>
+          <a class="menu-item" href="#portfolio">
+            portfolio
+          </a>
+          <a class="menu-item" href="#about">
+            about
+          </a>
+          <a class="menu-item" href="#contact-us">
+            contact
+          </a>
         </nav>
 
       </header>
@@ -59,17 +50,16 @@
         
         <p>welcome to our studio!</p>
         <h1>it's  nice to meet you</h1>
-        <a href="#">
-          <button class="more-btn">
-            tell me more
-          </button>
-        </a>
+        <button class="more-btn">
+          tell me more
+        </button>
 
       </section>
 
     </header>
 
-    <section class="services" id="services">
+    <a id="services" href="#"></a>
+    <section class="services">
 
       <h2>services</h2>
       <p>Proin iaculis purus consequat sem cure. </p>
@@ -77,7 +67,7 @@
       <section class="items-wrapper">
         
         <div class="services__item">
-          <img src="./img/ecommerse-min.png" alt="">
+          <span class="services__ecommerce-icon"></span>
           <h3>E-Commerce</h3>
           <p>
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
@@ -85,7 +75,7 @@
         </div>
 
         <div class="services__item">
-          <img src="./img/responsive-min.png" alt="">
+          <span class="services__responcive-icon"></span>
           <h3>Responcive Web</h3>
           <p>
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
@@ -93,7 +83,7 @@
         </div>
 
         <div class="services__item">
-          <img src="./img/security-min.png" alt="">
+          <span class="services__security-icon"></span>
           <h3>Web Security</h3>
           <p>
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
@@ -104,7 +94,8 @@
 
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <a id="portfolio" href="#"></a>
+    <section class="portfolio">
       
       <h2>our portfolio</h2>
       <p>Proin iaculis purus consequat sem cure. </p>
@@ -163,7 +154,8 @@
 
     </section>
 
-    <section class="about" id="about">
+    <a id="about" href="#"></a>
+    <section class="about">
 
       <h2>about us</h2>
       <p>Proin iaculis purus consequat sem cure. </p>
@@ -240,21 +232,15 @@
             Marketer
           </p>
           <div class="social">
-            <div class="social__item">
-              <a href="#">
-                <img src="./img/twitter-min.png" alt="">
-              </a>
-            </div>
-            <div class="social__item">
-              <a href="#">
-                <img src="./img/fb-min.png" alt="">
-              </a>
-            </div>
-            <div class="social__item">
-              <a href="#">
-                <img src="./img/pienterest-min.png" alt="">
-              </a>
-            </div>
+            <a class="social__item" href="#">
+              <span class="social__twitter-icon"></span>
+            </a>
+            <a class="social__item" href="#">
+              <span class="social__fb-icon"></span>
+            </a>
+            <a class="social__item" href="#">
+              <span class="social__pient-icon"></span>
+            </a>
           </div>
         </div>
 
@@ -267,15 +253,15 @@
             Coder
           </p>
           <div class="social">
-            <div class="social__item">
-              <a href="#"><img src="./img/twitter-min.png" alt=""></a>
-            </div>
-            <div class="social__item">
-              <a href="#"><img src="./img/fb-min.png" alt=""></a>
-            </div>
-            <div class="social__item">
-              <a href="#"><img src="./img/gplus-min.png" alt=""></a>
-            </div>
+            <a class="social__item" href="#">
+              <span class="social__twitter-icon"></span>
+            </a>
+            <a class="social__item" href="#">
+              <span class="social__fb-icon"></span>
+            </a>
+            <a class="social__item" href="#">
+              <span class="social__gplus-icon"></span>
+            </a>
           </div>
         </div>
 
@@ -288,16 +274,12 @@
             graphic designer
           </p>
           <div class="social">
-            <div class="social__item">
-              <a href="#">
-                <img src="./img/fb-min.png" alt="">
-              </a>
-            </div>
-            <div class="social__item">
-              <a href="#">
-                <img src="./img/pienterest-min.png" alt="">
-              </a>
-            </div>
+            <a class="social__item" href="#">
+              <span class="social__fb-icon"></span>
+            </a>
+            <a class="social__item" href="#">
+              <span class="social__pient-icon"></span>
+            </a>
           </div>
         </div>
 
@@ -324,7 +306,8 @@
       </div>
     </section>
 
-    <section class="contact-us" id="contact-us">
+    <a id="contact-us" href="#"></a>
+    <section class="contact-us">
 
       <h2>contact us</h2>
       <p>Proin iaculis purus consequat sem cure. </p>
@@ -348,26 +331,18 @@
         © Copyright 2014 FreebiesXpress.com
       </p>
       <div class="social">
-        <div class="social__item">
-          <a href="#">
-            <img src="./img/twitterbot-min.png" alt="">
-          </a>
-        </div>
-        <div class="social__item">
-          <a href="#">
-            <img src="./img/fbbot-min.png" alt="">
-          </a>
-        </div>
-        <div class="social__item">
-          <a href="#">
-            <img src="./img/painterestbot-min.png" alt="">
-          </a>
-        </div>
-        <div class="social__item">
-          <a href="#">
-            <img src="./img/gplusbot-min.png" alt="">
-          </a>
-        </div>
+        <a class="social__item" href="#">
+          <span class="social__twitterbot-icon"></span>
+        </a>
+        <a class="social__item" href="#">
+          <span class="social__fbbot-icon"></span>
+        </a>
+        <a class="social__item" href="#">
+          <span class="social__pientbot-icon"></span>
+        </a>
+        <a class="social__item" href="#">
+          <span class="social__gplusbot-icon"></span>
+        </a>
       </div>
     </footer>
 
