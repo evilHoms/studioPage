@@ -19,14 +19,6 @@ a:hover {
   color: #fed136;
 }
 
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-
-  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-}
-
 .content {
   position: relative;
 
@@ -40,7 +32,7 @@ a:hover {
   background-size: cover;
 }
 
-.welcome__header {
+.fixed-header {
   position: fixed;
   z-index: 1;
 
@@ -50,22 +42,22 @@ a:hover {
   background: rgba(57, 57, 57, 0.3);
 }
 
-.welcome__header .content {
+.fixed-header .content {
   padding: 0 25px;
 }
 
-.welcome__header .content::after {
+.fixed-header .content::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.welcome__logo {
+.fixed-header__logo {
   float: left;
   padding-top: 44px;
 }
 
-.welcome__menu {
+.fixed-header__menu {
   float: right;
   padding-top: 52px;
 
@@ -86,7 +78,7 @@ a:hover {
   text-align: center;
 }
 
-.greeting p {
+.greeting__text {
   padding-bottom: 26px;
 
   font-family: 'Droid Serif', serif;
@@ -97,7 +89,7 @@ a:hover {
   color: #ffffff;
 }
 
-.greeting h1 {
+.greeting__title {
   padding-bottom: 41px;
 
   font-family: 'Montserrat', sans-serif;
@@ -146,7 +138,7 @@ a:hover {
   vertical-align: top;
 }
 
-.services h2 {
+.services__title {
   padding-top: 112px;
 
   font-family: 'Montserrat', sans-serif;
@@ -155,7 +147,7 @@ a:hover {
   font-size: 3.7rem;
 }
 
-.services .content > p {
+.services__text {
   padding-top: 11px;
 
   font-family: 'Droid Serif', serif;
@@ -195,7 +187,7 @@ a:hover {
   background-position: 80px 0;
 }
 
-.services__item h3 {
+.services__item__title {
   padding-top: 20px;
 
   font-family: 'Montserrat', sans-serif ;
@@ -203,7 +195,7 @@ a:hover {
   font-size: 1.7rem;
 }
 
-.services__item p {
+.services__item__text {
   padding: 13px 22px 0;
 
   font-family: 'Roboto Slab', serif;
@@ -230,7 +222,7 @@ a:hover {
   vertical-align: top;
 }
 
-.portfolio h2 {
+.portfolio__title {
   padding-top: 108px;
 
   font-family: 'Montserrat', sans-serif;
@@ -239,7 +231,7 @@ a:hover {
   font-size: 3.9rem;
 }
 
-.portfolio .content > p {
+.portfolio__text {
   padding-top: 8px;
   padding-bottom: 26px;
 
@@ -250,7 +242,7 @@ a:hover {
   color: #777777;
 }
 
-.portfolio__item h3 {
+.portfolio__item__title {
   padding-top: 27px;
   margin: 0 18px;
 
@@ -261,7 +253,7 @@ a:hover {
   background: #ffffff;
 }
 
-.portfolio__item p {
+.portfolio__item__text {
   padding: 1px 22px 23px;
   margin: 0 18px;
 
@@ -288,7 +280,7 @@ a:hover {
   padding-bottom: 93px;
 }
 
-.about h2 {
+.about__title {
   padding-top: 115px;
 
   font-family: 'Montserrat', sans-serif;
@@ -297,7 +289,7 @@ a:hover {
   font-size: 3.9rem;
 }
 
-.about .content > p {
+.about__sub-title {
   padding-top: 11px;
   padding-bottom: 75px;
   
@@ -306,7 +298,7 @@ a:hover {
   font-size: 1.6rem;
 
   color: #777777;
-}
+} 
 
 .about .items-wrapper {
   background: url("../img/vline-min.jpg") repeat-y;
@@ -374,7 +366,7 @@ a:hover {
   font-size: 1.7rem;
 }
 
-.about__item h4 {
+.about__item__title {
   padding-top: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -382,7 +374,7 @@ a:hover {
   font-size: 1.7rem;
 }
 
-.about__item p {
+.about__item__text {
   padding-top: 13px;
 
   font-family: 'Roboto Slab', serif;
@@ -408,7 +400,7 @@ a:hover {
   vertical-align: top;
 }
 
-.team h2 {
+.team__title {
   padding-top: 100px;
 
   font-family: 'Montserrat', sans-serif;
@@ -549,7 +541,7 @@ a:hover {
   background: #000 url('../img/footerbg-min.jpg');
 }
 
-.contact-us h2 {
+.contact-us__title {
   padding-top: 93px;
 
   font-family: 'Montserrat', sans-serif;
@@ -560,7 +552,7 @@ a:hover {
   color: #ffffff;
 }
 
-.contact-us p {
+.contact-us__text {
   padding-top: 11px;
 
   font-family: 'Droid Serif', serif;
@@ -618,7 +610,7 @@ a:hover {
   border: none;
 }
 
-.contact-form .contact-form__input-group input {
+.contact-form__input-field {
   display: block;
   width: 100%;
   margin-bottom: 30px;
@@ -634,7 +626,7 @@ a:hover {
   border-radius: 3px;
 }
 
-.contact-form textarea {
+.contact-form__text-field {
   width: 100%;
   padding: 14px;
 
@@ -648,7 +640,7 @@ a:hover {
   border-radius: 3px;
 }
 
-footer {
+.bottom {
   position: relative;
   
   padding: 18px;
@@ -656,8 +648,8 @@ footer {
   text-align: center;
 }
 
-footer p,
-footer div {
+.bottom .copy,
+.bottom .social {
   display: inline-block;
   vertical-align: middle;
 }
@@ -674,7 +666,7 @@ footer div {
   color: #555555;
 }
 
-footer .social__item {
+.bottom .social__item {
   padding: 3px;
 }
 
